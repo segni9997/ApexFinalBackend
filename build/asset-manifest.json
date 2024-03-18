@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.46d72348.css",
+    "main.js": "/static/js/main.08eab027.js",
+    "static/js/787.71df535f.chunk.js": "/static/js/787.71df535f.chunk.js",
+    "static/media/sami.mp4": "/static/media/sami.af8389cd2458c467b322.mp4",
+    "static/media/hanni.mp4": "/static/media/hanni.dd9bce3627133bf6476b.mp4",
+    "static/media/QULQULLU.mp4": "/static/media/QULQULLU.25bad480b041d01f1631.mp4",
+    "static/media/beki.mp4": "/static/media/beki.209d098754a996d1319a.mp4",
+    "static/media/oxford.png": "/static/media/oxford.23eaee7f11290e7752b2.png",
+    "static/media/Agrifinal.pdf": "/static/media/Agrifinal.1adfa84dc2ecb914e6eb.pdf",
+    "static/media/madrid.png": "/static/media/madrid.c96a541b860bcb717b54.png",
+    "static/media/paris.png": "/static/media/paris.95f4601b80930cfa8048.png",
+    "static/media/consulting-2045471_1920.jpg": "/static/media/consulting-2045471_1920.19c3df28d06491f499a7.jpg",
+    "static/media/pro.pdf": "/static/media/pro.f8bb82b88eb5164cade8.pdf",
+    "static/media/segni.jpg": "/static/media/segni.369a450cddf4aa51500f.jpg",
+    "static/media/cbe-logo.jpg": "/static/media/cbe-logo.412e62d6c092e7d4c058.jpg",
+    "static/media/Cbebirr.jpg": "/static/media/Cbebirr.91f27e6dc0658bb6f5f7.jpg",
+    "static/media/sweden.png": "/static/media/sweden.8bd6c472850d0522516a.png",
+    "static/media/Toronto.png": "/static/media/Toronto.3fb04deb007ae15b5fed.png",
+    "static/media/background1.jpg": "/static/media/background1.98ef735a6d80b967ef3f.jpg",
+    "static/media/apex.png": "/static/media/apex.24f171ee50200bb8f359.png",
+    "static/media/graph1.png": "/static/media/graph1.575abef895a169db4238.png",
+    "static/media/london.png": "/static/media/london.b80001ea0c578581a9ae.png",
+    "static/media/consultingf.jpg": "/static/media/consultingf.0064f2011b198ca5f9c6.jpg",
+    "static/media/Rome.png": "/static/media/Rome.98e435bc4cd10b76d9e4.png",
+    "static/media/berlin.png": "/static/media/berlin.c897a97477581ce3a8bf.png",
+    "static/media/telebirr.jpg": "/static/media/telebirr.24c4b4fab7e007795ba8.jpg",
+    "static/media/redux.cjs": "/static/media/redux.7edfc461ab353f1712ab.cjs",
+    "index.html": "/index.html",
+    "main.46d72348.css.map": "/static/css/main.46d72348.css.map",
+    "main.08eab027.js.map": "/static/js/main.08eab027.js.map",
+    "787.71df535f.chunk.js.map": "/static/js/787.71df535f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46d72348.css",
+    "static/js/main.08eab027.js"
+  ]
+}
