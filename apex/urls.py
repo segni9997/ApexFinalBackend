@@ -11,10 +11,11 @@ urlpatterns = [
     path('video/', views.VideoList.as_view()),
     path('quiz/', views.QuizList.as_view()),
     path('quizquestion/<int:quiz_id>', views.QuizQuestionList.as_view()),
-#     path('coursecontent/', views.CourseContentList.as_view()),
+    path('quizquestion/', views.QuizQuestionListAll.as_view()),  
     path('enrollments/', views.EnrollmentList.as_view()),
-#     path('reviews/', views.ReviewList.as_view()),
     path('instructors/', views.InstructorList.as_view()),
-#     path('instructors/<int:pk>/', views.InstructorDetail.as_view()),
     path("Role/" , views.RoleViewList.as_view())
+    #     path('reviews/', views.ReviewList.as_view()),
+#     path('instructors/<int:pk>/', views.InstructorDetail.as_view()),
+    
 ]

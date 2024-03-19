@@ -91,3 +91,6 @@ class QuizQuestionList(generics.ListCreateAPIView):
         quiz_id =self.kwargs['quiz_id'] 
         quiz =models.Quiz.objects.get(pk=quiz_id) 
         return models.QuizQuestions.objects.filter(quiz=quiz)
+class QuizQuestionListAll(generics.ListCreateAPIView): 
+    queryset = models.QuizQuestions.objects.all() 
+    serializer_class = QuizQuestionSerializer  

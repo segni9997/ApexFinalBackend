@@ -33,21 +33,26 @@ class InstructorSerializer(serializers.ModelSerializer):
 class VideoSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Video
-        fields = ['id','title','description','video_file','course']        
+        fields = ['id','title','description','video_file','module']        
 class WorkBookSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.WorkBook
-        fields =['id ','title','description','pdf_file','course'] 
+        fields =['id ','title','description','pdf_file','module'] 
+         
          
 class QuizSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Quiz
-        fields =['id','title','questions','course']  
+        fields =['id','title','questions','module']  
+        depth = 1
+       
+        
         
 class QuizQuestionSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.QuizQuestions
         fields =['id','quiz','questions','ans1','ans2','ans3','ans4','right_ans','add_time']
+        depth=2
 
 class EnrollmentSerializer(serializers.ModelSerializer):
     class Meta:

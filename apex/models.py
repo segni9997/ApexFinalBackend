@@ -85,7 +85,7 @@ class Video(models.Model):
     title = models.CharField(max_length = 100)
     description = models.TextField()
     video_file = models.FileField(upload_to="video/")
-    course = models.ForeignKey( Course ,on_delete =models.CASCADE , related_name = 'videos')
+    module = models.ForeignKey( Module ,on_delete =models.CASCADE , related_name = 'videos')
     
     def __str__(self):
         return self.title
@@ -94,7 +94,7 @@ class WorkBook(models.Model):
     title = models.CharField(max_length=100)
     description =models.TextField()
     pdf_file =models.FileField(upload_to='workbook/')  
-    course = models.ForeignKey(Course , on_delete=models.CASCADE ,related_name='workbooks')  
+    module = models.ForeignKey(Module , on_delete=models.CASCADE ,related_name='workbooks')  
     
     def __str__(self):
         return self.title
@@ -102,7 +102,7 @@ class WorkBook(models.Model):
 class Quiz(models.Model):
     title = models.CharField(max_length=100)
     questions = models.TextField()
-    course = models.ForeignKey(Course , on_delete = models.CASCADE , null = True)
+    module = models.ForeignKey(Module , on_delete = models.CASCADE , null = True)
     
     def __str__(self):
         return self.title
