@@ -6,7 +6,7 @@ from django.conf import  settings
 
 urlpatterns = [
 #    path('apexx/', include("users.urls")),
-   path('apex/', include("apex.urls")),
+   path('apexx/', include("apex.urls")),
    path('apexx/', include('djoser.urls')),
    path('apexx/', include('djoser.urls.jwt')),
    path('apexx/', include('djoser.urls.authtoken')),

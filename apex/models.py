@@ -49,7 +49,7 @@ class Module(models.Model):
 
         
 class Course(models.Model): 
-    featured_img =models.ImageField(upload_to='course_imga/',null=True, blank=True) 
+    featured_img =models.ImageField(upload_to='course_imga/',null=True, blank=True ) 
     course_name = models.CharField(max_length=100 ,null=True, blank=True)
     title =models.TextField()
     features =models.CharField(max_length =150) 

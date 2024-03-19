@@ -38,6 +38,7 @@ class ModuleList(generics.ListCreateAPIView):
 class CourseViewList(generics.ListCreateAPIView): 
     queryset =models.Course.objects.all() 
     serializer_class = CourseSerializer 
+   
     
     # permission_classes = [permissions.IsAuthenticated]
 class RoleViewList(generics.ListCreateAPIView): 
